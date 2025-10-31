@@ -83,7 +83,41 @@ button
 
 .two
 {
-    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.info
+{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.child
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.t
+{
+    width: 250px;
+    margin: 10px;
+}
+
+.box
+{
+    height: 250px;
+    width: 250px;
+    border: 5px solid #3882F6;
+    border-radius: 25px;
 }
 
 .three
