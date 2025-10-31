@@ -123,7 +123,33 @@ button
 
 .three
 {
-    
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 125px;
+    padding-top: 125px;
+}
+
+.quote
+{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+}
+
+.lada
+{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-end;
+}
+
+.name
+{
+    padding-right: 50px;
 }
 
 .four
