@@ -154,15 +154,31 @@ button
 
 .four
 {
-    
+    display: flex;
+    padding-bottom: 125px;
+    padding-top: 125px;
+    justify-content: center;
+    align-items: center;
 }
 
-.five
+.blue
 {
-    
+    background-color: #3882F6;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    gap: 100px;
 }
 
 .footnote
 {
-    
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    font-weight: 500;
 }
